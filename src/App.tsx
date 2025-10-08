@@ -100,7 +100,7 @@ export default function App() {
   const hasUnsavedChanges = content !== savedContent;
 
   return (
-    <div className="p-4 space-y-4 max-w-4xl mx-auto">
+    <div className="p-4 space-y-4 mx-auto">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold">Kalidas Editor</h1>
         <div className="text-sm text-gray-500">
@@ -166,7 +166,7 @@ export default function App() {
             }) as unknown as NodeAsExtension<ImageNodeOptions>,
           ]}
         >
-          <CustomBubbleMenu />
+          <CustomBubbleMenu /> 
         </Editor>
       </div>
 
